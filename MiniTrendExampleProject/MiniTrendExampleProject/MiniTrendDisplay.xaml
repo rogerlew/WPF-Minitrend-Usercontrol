@@ -1,0 +1,59 @@
+﻿<UserControl x:Class="DCSTrends.MiniTrendDisplay"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             DataContext="{Binding RelativeSource={RelativeSource Self}}"
+             mc:Ignorable="d" >
+    <Grid Width="200" Height="200">
+        <Border  Name="AlarmRect" Width="Auto" Height="Auto" BorderBrush="Black" BorderThickness="1" Visibility="Hidden"/>
+        <Grid 
+            Name="Container" 
+            Width="180" Height="150" Margin="10,18,10,32">
+            <Border Width="Auto" Height="Auto" Background="#FFD0D0D0"/>
+            <Path Stroke="White" StrokeThickness="2" Data="M 0,75 180,75"/>
+            <Path Stroke="#FF999999" StrokeThickness="1" StrokeDashArray="1,1" Data="M 45,0 45,150"/>
+            <Path Stroke="#FF999999" StrokeThickness="1" StrokeDashArray="1,1" Data="M 90,0 90,150"/>
+            <Path Stroke="#FF999999" StrokeThickness="1" StrokeDashArray="1,1" Data="M 135,0 135,150"/>
+            <Path Name="Trend1" Stroke="Black" StrokeThickness="2" Data="M 0,100 180,100"/>
+            <Path Name="YLimPath" Stroke="Black" StrokeThickness="2" Data="M 10,0 0,0 0,150 10,150" Margin="-1,0,1,0"/>
+        </Grid>
+        <Label 
+            Name="UnitsLabel" 
+            Width="99" Height="40" 
+            FontSize="10" 
+            Foreground="Black"
+            HorizontalContentAlignment="left" 
+            Margin="122,179,-21,-19"
+            Content="{Binding Path=Units, FallbackValue=Hz}"/>
+        <Label 
+            Name="ValueLabel" 
+            Width="100" Height="40" 
+            FontSize="17" 
+            Foreground="Black"
+            HorizontalContentAlignment="Right" 
+            Margin="29,172,71,-12"
+            Content="{Binding Path=ValueStr,  FallbackValue=59.99}"/>
+        <Label 
+            Name="YminLabel" 
+            Width="100" Height="32" 
+            FontSize="16" Foreground="Black" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Left"
+            Content="{Binding Path=Ymin, StringFormat=0, FallbackValue=100}" Margin="21,152,79,16"/>
+        <Label 
+            Name="TimebaseLabel" 
+            Width="100" Height="32" 
+            FontSize="16" Foreground="Black" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Left"
+            Content="{Binding Path=Timebase, FallbackValue=-1h}" Margin="-7,162,107,6"/>
+        <Label 
+            Name="YmaxLabel" 
+            Width="100" Height="32" 
+            FontSize="16" Foreground="Black"
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Left" 
+            Content="{Binding Path=Ymax, StringFormat=0, FallbackValue=0}" Margin="21,2,79,166"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,17 @@
+c:\users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\bin\Debug\MiniTrendExampleProject.exe.config
+c:\users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\bin\Debug\MiniTrendExampleProject.exe
+c:\users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\bin\Debug\MiniTrendExampleProject.pdb
+c:\users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\obj\Debug\MiniTrendDisplay.baml
+c:\users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\obj\Debug\MainWindow.g.cs
+c:\users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\obj\Debug\MiniTrendDisplay.g.cs
+c:\users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\obj\Debug\App.g.cs
+c:\users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\obj\Debug\MiniTrendExampleProject_MarkupCompile.cache
+c:\users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\obj\Debug\MiniTrendExampleProject_MarkupCompile.lref
+c:\users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\obj\Debug\MainWindow.baml
+c:\users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\obj\Debug\MiniTrendExampleProject.g.resources
+c:\users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\obj\Debug\MiniTrendExampleProject.Properties.Resources.resources
+c:\users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\obj\Debug\MiniTrendExampleProject.csproj.GenerateResource.Cache
+c:\users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\obj\Debug\MiniTrendExampleProject.exe
+c:\users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\obj\Debug\MiniTrendExampleProject.pdb
+C:\Users\install\documents\visual studio 2013\Projects\MiniTrendExampleProject\MiniTrendExampleProject\obj\Debug\MiniTrendExampleProject.csprojResolveAssemblyReference.cache

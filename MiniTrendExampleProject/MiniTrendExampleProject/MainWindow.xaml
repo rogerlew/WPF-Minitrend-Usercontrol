@@ -1,0 +1,11 @@
+﻿<Window x:Class="MiniTrendExampleProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dcs="clr-namespace:DCSTrends"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Background="#FFDDDDDD">
+        <dcs:MiniTrendDisplay x:Name="aMiniTrend" Width="200" Height="200" Ymin="80" Ymax="120" Units="goats" Timebase="-60s"/>
+
+    </Grid>
+</Window>
